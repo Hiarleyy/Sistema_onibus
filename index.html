@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script type="module" src="./index.js"></script>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <title>mapa</title>
+</head>
+
+<body>
+  <div id="title">
+    <h1 id="text">Rotas</h1>
+  </div>
+  <div id="main" class="container">
+    <div id="map"></div>
+    <select id="mode" class="selections">
+      <option value="" disabled selected> Selecione uma Rota</option>
+      <option value="rotas/rota1.html">Rota 1</option>
+      <option value="rotas/Rota2.html">Rota 2</option>
+      <option value="rotas/Rota3.html">Rota 3</option>
+    </select>
+  </div>
+  <div id="p" class="container">
+    <div id="content">
+
+    </div>
+  </div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp7q3_WG_NGJlCSTVMem_pPvTsCpbSQ20&callback=initMap"
+    defer></script>
+</body>
+
+</html>
